@@ -131,6 +131,15 @@ else:
     }
 
 
+# Unit Test
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': 'test.db',
+    }
+}
+
+
 # Password validation
 # https://docs.djangoproject.com/en/3.1/ref/settings/#auth-password-validators
 
